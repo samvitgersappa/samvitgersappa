@@ -1,8 +1,10 @@
 <div align="center">
 
-# Hey, I'm Samvit 👋
+# Samvit Gersappa
 
-**Incoming Software Engineer @ Dell Technologies · AI Systems · Developer Tools**
+**AI systems · agent reliability · evaluation infrastructure · developer tools**
+
+Software Engineer @ Dell Technologies · Bengaluru, India
 
 <br>
 
@@ -12,12 +14,11 @@
 <a href="mailto:samvit.gersappa@gmail.com">
   <img src="https://img.shields.io/badge/Email-samvit.gersappa-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
-<img src="https://komarev.com/ghpvc/?username=samvitgersappa&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile Views">
 
 <br>
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&repeat=true&width=700&height=45&lines=building+AI+systems+%E2%86%92+real+systems;developer+tools+I+wish+already+existed;running+LLMs+where+they+probably+shouldn't+fit;build+it+to+understand+it." alt="Typing SVG">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&repeat=true&width=760&height=45&lines=understanding+why+AI+systems+fail;measuring+what+changes+when+systems+change;building+developer+tools+I+wish+already+existed" alt="Typing SVG">
 
 </div>
 
@@ -27,44 +28,46 @@
 
 ```yaml
 name: Samvit Gersappa
-role: Incoming Software Engineer @ Dell Technologies
+role: Software Engineer @ Dell Technologies
 location: Bengaluru, India
 
-interests:
+focus:
   - AI systems
-  - LLMs
+  - agent reliability
+  - evaluation infrastructure
   - developer tools
-  - distributed systems
 
-status: building things to understand how they work
+currently: building tools to understand how AI systems fail, drift, and change
 ```
+
+I build infrastructure for **understanding, evaluating, and debugging AI systems** — especially when code, context, tools, or deployment environments change underneath them.
 
 <br>
 
-## `~/projects`
+## Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔭 DriftLens
+### [DriftLens](https://github.com/samvitgersappa/DriftLens)
 
-**Code changed. Docs didn't.**
+**Static analysis for natural-language claims about software.**
 
-Detecting semantic drift between source code and documentation using AST analysis and LLM reasoning.
+Treating documentation as semantic claims and verifying them against source code using AST evidence and language models.
 
 `Rust` `tree-sitter` `Python` `LLMs`
 
 </td>
 <td width="50%" valign="top">
 
-### 🌍 EcoVisionNet
+### [Orbit](https://github.com/samvitgersappa/orbit)
 
-**Teaching models to reason over Earth.**
+**Understanding why AI agents fail.**
 
-A multimodal vision-language model for geospatial pixel reasoning and satellite imagery.
+Local-first infrastructure for tracing, replaying, and debugging agent trajectories — evolving toward counterfactual failure attribution.
 
-`PyTorch` `Swin V2` `CLIP` `Transformers`
+`Python` `Agents` `Ollama` `Tracing`
 
 </td>
 </tr>
@@ -72,24 +75,24 @@ A multimodal vision-language model for geospatial pixel reasoning and satellite 
 <tr>
 <td width="50%" valign="top">
 
-### 🧪 Quantization Research
+### [Project Aster](https://github.com/samvitgersappa/Project-Aster)
 
-**What quietly changes when models get smaller?**
+**A local-first runtime for capable AI agents.**
 
-Exploring behavioural and safety regressions across quantized local language models.
+Deterministic routing, typed state transitions, tiered memory, tool contracts, capability discovery, and local model execution.
 
-`Ollama` `llama.cpp` `Apple Silicon`
+`Python` `LangGraph` `Ollama` `MCP`
 
 </td>
 <td width="50%" valign="top">
 
-### ⚙️ Distributed Data Systems
+### [LLVM Source Mapper](https://github.com/samvitgersappa/llvm-source-mapper)
 
-**Scaling beyond the single machine.**
+**Following programs below the source layer.**
 
-Horizontally scalable data infrastructure, distributed task execution, and orchestration.
+Exploring how high-level source maps to LLVM IR through compiler analysis and visualization.
 
-`Airflow` `OpenShift` `Kubernetes` `Celery`
+`LLVM` `C++` `Compilers` `Static Analysis`
 
 </td>
 </tr>
@@ -97,81 +100,87 @@ Horizontally scalable data infrastructure, distributed task execution, and orche
 
 <br>
 
-## `~/currently`
+## Current questions
 
 ```text
-[████████░░]  building LLMs from the fundamentals
-[███████░░░]  local inference on Apple Silicon
-[██████░░░░]  AI-native developer tooling
-[█████░░░░░]  agentic systems
-[████░░░░░░]  quantitative research systems
+→ Why did an agent fail: model, context, tool, or harness?
+
+→ When code changes, which natural-language claims become false?
+
+→ Does a deployed model still behave like the model we evaluated?
+
+→ At what point does more context make an agent worse?
+```
+
+These questions currently lead me into **agent evaluation, counterfactual replay, semantic code analysis, local inference, and behavioural regression testing**.
+
+<br>
+
+## Experiments in progress
+
+```text
+DriftLens      code changed       → did our claims become false?
+Orbit          agent failed       → what actually caused the failure?
+InferenceDiff  deployment changed → did model behaviour regress?
+ContextRot     context changed    → when did the agent become worse?
 ```
 
 > currently trying to convince 16 GB of unified memory that it is a GPU cluster.
 
 <br>
 
-## `~/stack`
+## Tools I reach for
 
 <div align="center">
 
 ### AI / ML
 
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
-<img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Transformers">
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn">
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+<img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Transformers">
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
+<img src="https://img.shields.io/badge/llama.cpp-000000?style=flat-square&logo=meta&logoColor=white" alt="llama.cpp">
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" alt="LangGraph">
 
 <br>
 <br>
 
 ### Languages
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
-<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C">
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C">
 
 <br>
 <br>
 
 ### Systems
 
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
-<img src="https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white" alt="OpenShift">
-<img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Apache Airflow">
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+<img src="https://img.shields.io/badge/tree--sitter-6A4C93?style=flat-square" alt="tree-sitter">
+<img src="https://img.shields.io/badge/LLVM-262D3A?style=flat-square&logo=llvm&logoColor=white" alt="LLVM">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
+<img src="https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white" alt="OpenShift">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
 
 </div>
 
 <br>
 
-## `~/telemetry`
+## A little more
+
+I like projects that sit somewhere between **research questions and engineering tools**.
+
+The interesting part, to me, is usually not making an LLM produce another answer. It is figuring out **why the answer changed, what part of the system caused it, and how to measure that reliably**.
+
+I also spend an unreasonable amount of time running local models on Apple Silicon and finding new ways to make 16 GB of memory feel inadequate.
+
+<br>
 
 <div align="center">
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=samvitgersappa&bg_color=0d1117&color=a78bfa&line=22d3ee&point=ffffff&area=true&area_color=7c3aed&hide_border=true&custom_title=Contribution%20Activity" alt="Samvit's contribution activity graph">
+**If you're working on AI systems, agents, evals, or developer infrastructure, I'd like to hear about it.**
 
-<br>
-<br>
-
-<img width="49%" src="https://github-stats-extended.vercel.app/api?username=samvitgersappa&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&icon_color=22d3ee&ring_color=7c3aed&rank_icon=github" alt="Samvit's GitHub stats">
-
-<img width="41%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=samvitgersappa&layout=donut&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=6" alt="Samvit's top languages">
-
-<br>
-<br>
-
-<img width="70%" src="https://streak-stats.demolab.com?user=samvitgersappa&theme=transparent&hide_border=true&background=0D1117&ring=7C3AED&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="Samvit's GitHub streak">
-
-</div>
-
-**AI systems · LLMs · developer tools · distributed infrastructure**
-
-<br>
 <br>
 
 <a href="https://linkedin.com/in/samvit-gersappa">
