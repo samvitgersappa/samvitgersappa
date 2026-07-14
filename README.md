@@ -1,14 +1,8 @@
-<!-- ========================================================= -->
-
-<!--                         HEADER                            -->
-
-<!-- ========================================================= -->
-
 <div align="center">
 
 # Hey, I'm Samvit 👋
 
-**Upcoming Software Engineer @ Dell Technologies · AI Systems · Developer Tools**
+**Incoming Software Engineer @ Dell Technologies · AI Systems · Developer Tools**
 
 <br>
 
@@ -18,9 +12,7 @@
 <a href="mailto:samvit.gersappa@gmail.com">
   <img src="https://img.shields.io/badge/Email-samvit.gersappa-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
-<a href="https://github.com/samvitgersappa">
-  <img src="https://komarev.com/ghpvc/?username=samvitgersappa&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile Views">
-</a>
+<img src="https://komarev.com/ghpvc/?username=samvitgersappa&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile Views">
 
 <br>
 <br>
@@ -31,17 +23,11 @@
 
 <br>
 
-<!-- ========================================================= -->
-
-<!--                         ABOUT                             -->
-
-<!-- ========================================================= -->
-
 ## `$ whoami`
 
 ```yaml
 name: Samvit Gersappa
-role: Software Engineer @ Dell Technologies
+role: Incoming Software Engineer @ Dell Technologies
 location: Bengaluru, India
 
 interests:
@@ -55,12 +41,6 @@ status: building things to understand how they work
 
 <br>
 
-<!-- ========================================================= -->
-
-<!--                        PROJECTS                           -->
-
-<!-- ========================================================= -->
-
 ## `~/projects`
 
 <table>
@@ -73,8 +53,6 @@ status: building things to understand how they work
 
 Detecting semantic drift between source code and documentation using AST analysis and LLM reasoning.
 
-<br>
-
 `Rust` `tree-sitter` `Python` `LLMs`
 
 </td>
@@ -85,8 +63,6 @@ Detecting semantic drift between source code and documentation using AST analysi
 **Teaching models to reason over Earth.**
 
 A multimodal vision-language model for geospatial pixel reasoning and satellite imagery.
-
-<br>
 
 `PyTorch` `Swin V2` `CLIP` `Transformers`
 
@@ -102,8 +78,6 @@ A multimodal vision-language model for geospatial pixel reasoning and satellite 
 
 Exploring behavioural and safety regressions across quantized local language models.
 
-<br>
-
 `Ollama` `llama.cpp` `Apple Silicon`
 
 </td>
@@ -113,9 +87,7 @@ Exploring behavioural and safety regressions across quantized local language mod
 
 **Scaling beyond the single machine.**
 
-Working with horizontally scalable data infrastructure, distributed task execution, and orchestration.
-
-<br>
+Horizontally scalable data infrastructure, distributed task execution, and orchestration.
 
 `Airflow` `OpenShift` `Kubernetes` `Celery`
 
@@ -124,12 +96,6 @@ Working with horizontally scalable data infrastructure, distributed task executi
 </table>
 
 <br>
-
-<!-- ========================================================= -->
-
-<!--                     CURRENTLY                             -->
-
-<!-- ========================================================= -->
 
 ## `~/currently`
 
@@ -144,12 +110,6 @@ Working with horizontally scalable data infrastructure, distributed task executi
 > currently trying to convince 16 GB of unified memory that it is a GPU cluster.
 
 <br>
-
-<!-- ========================================================= -->
-
-<!--                         STACK                             -->
-
-<!-- ========================================================= -->
 
 ## `~/stack`
 
@@ -189,79 +149,29 @@ Working with horizontally scalable data infrastructure, distributed task executi
 
 <br>
 
-<!-- ========================================================= -->
-
-<!--                       TELEMETRY                           -->
-
-<!-- ========================================================= -->
-
 ## `~/telemetry`
 
 <div align="center">
 
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=samvitgersappa&show_icons=true&hide_border=true&bg_color=00000000&title_color=a78bfa&text_color=ffffff&icon_color=22d3ee"
-    media="(prefers-color-scheme: dark)"
-  >
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=samvitgersappa&show_icons=true&hide_border=true&bg_color=00000000&title_color=7c3aed&text_color=24292f&icon_color=0891b2"
-    media="(prefers-color-scheme: light)"
-  >
-  <img
-    height="170"
-    src="https://github-readme-stats.vercel.app/api?username=samvitgersappa&show_icons=true&hide_border=true"
-    alt="Samvit's GitHub Stats"
-  >
-</picture>
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=samvitgersappa&bg_color=0d1117&color=a78bfa&line=22d3ee&point=ffffff&area=true&area_color=7c3aed&hide_border=true&custom_title=Contribution%20Activity" alt="Samvit's contribution activity graph">
 
- 
+<br>
+<br>
 
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=samvitgersappa&layout=compact&langs_count=6&hide_border=true&bg_color=00000000&title_color=a78bfa&text_color=ffffff"
-    media="(prefers-color-scheme: dark)"
-  >
-  <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=samvitgersappa&layout=compact&langs_count=6&hide_border=true&bg_color=00000000&title_color=7c3aed&text_color=24292f"
-    media="(prefers-color-scheme: light)"
-  >
-  <img
-    height="170"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=samvitgersappa&layout=compact&langs_count=6&hide_border=true"
-    alt="Top Languages"
-  >
-</picture>
+<img width="49%" src="https://github-stats-extended.vercel.app/api?username=samvitgersappa&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&icon_color=22d3ee&ring_color=7c3aed&rank_icon=github" alt="Samvit's GitHub stats">
+
+<img width="41%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=samvitgersappa&layout=donut&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=6" alt="Samvit's top languages">
+
+<br>
+<br>
+
+<img width="70%" src="https://streak-stats.demolab.com?user=samvitgersappa&theme=transparent&hide_border=true&background=0D1117&ring=7C3AED&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="Samvit's GitHub streak">
 
 </div>
 
-<br>
-
-<!-- ========================================================= -->
-
-<!--                         SIGNAL                            -->
-
-<!-- ========================================================= -->
-
-## `~/signal`
-
-```python
-while curious:
-    idea = ask("what if?")
-    prototype = build(idea)
-
-    if prototype.works:
-        open_source(prototype)
-    else:
-        learn_something()
-```
-
-<br>
-
-<div align="center">
-
 **AI systems · LLMs · developer tools · distributed infrastructure**
 
+<br>
 <br>
 
 <a href="https://linkedin.com/in/samvit-gersappa">
